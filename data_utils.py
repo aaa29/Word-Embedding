@@ -52,16 +52,7 @@ def clean_str2(strings):
 
 
 
-def normal(para):
-    """
-    Tokenization/string cleaning for all datasets except for SST.
-    Original taken from https://github.com/yoonkim/CNN_sentence/blob/master/process_data.py
-    """
-    
-    sents = para_to_sent(para)
-    sents = [clean_str(string) for string in sents if len(clean_str(string))>0]
-  
-    return sents
+
 
 
 
