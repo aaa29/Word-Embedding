@@ -49,7 +49,7 @@ data = pd.read_csv('datasets/MOV.csv')
 
 data['text'] = data['text'].apply(clean_str2)
 
-texts = [sent[:10] for sents in data['text'].tolist()[:100]
+texts = [sent for sents in data['text'].tolist()
                    for sent in sents]
 
 
