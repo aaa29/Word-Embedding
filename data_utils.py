@@ -6,12 +6,6 @@ Created on Mon Jul 23 14:19:35 2018
 @author: amine
 """
 
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
 
 import numpy as np
 import pyarabic.araby as araby
